@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="./">
+      <!-- <label for="nome">Nome</label> -->
+      <!-- <input type="text" id="nome" name="nomes" /> -->
+      <div class="checkbox">
+        <input type="checkbox" id="termos" name="termos" value="aceito" />
+        <label for="termos">Aceito os termos de condições da empresa.</label>
+      </div>
+
+      <div class="radio">
+        <input
+          type="radio"
+          id="retirada"
+          name="forma-recebimento"
+          value="retirada"
+        />
+        <label for="retirada">Retirar no local.</label>
+      </div>
+      <div class="radio">
+        <input
+          type="radio"
+          id="entrega"
+          name="forma-recebimento"
+          value="entrega"
+        />
+        <label for="entrega">Entrega em casa.</label>
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
