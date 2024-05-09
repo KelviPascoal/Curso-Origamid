@@ -18,7 +18,7 @@ type Aula = {
 };
 
 export async function getCursos() {
-    const response = await fetch('https://api.origamid.online/cursos');
+    const response = await fetch('https://api.origamid.online/cursos', { cache: 'default' });
     return (await response.json()) as Curso[];
 }
 

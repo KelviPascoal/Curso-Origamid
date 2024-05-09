@@ -15,6 +15,15 @@ export function Menu() {
       <li>
         <Link href="/cursos">Cursos</Link>
       </li>
+      <li>
+        <Link href="/acoes">Ações</Link>
+      </li>
+      <li>
+        <Link href="/produtos">Produtos</Link>
+      </li>
+      <li>
+        <Link href="/produtos/adicionar">Adicionar Produto</Link>
+      </li>
     </ul>
   );
 }
